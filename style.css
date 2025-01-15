@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box h1 {
+    color: aliceblue;
+}
+
+@media (max-width:700px) {
+    .box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: rgb(165, 118, 106);
+        height: 100vh;
+        width: 200px;
+        text-align: left;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: black;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        padding: 30px;
+    }
+
+}
+
+nav .fa {
+    display: none;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(https://www.bitsindri.ac.in/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-18-at-1.18.17-AM.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+a:hover {
+    background-color: rgb(83, 83, 243);
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 12px;
+    position: relative;
+    font-size: small;
+
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(233, 233, 199, 0.89);
+}
+
+a:hover {
+    background-color: rgb(83, 83, 243);
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%, -50%);
+
+    color: rgb(225, 208, 240);
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.button {
+    color: rgb(233, 224, 224);
+    border: 1px solid rgb(8, 8, 8);
+    text-align: center;
+    top: 20vh;
+    position: relative;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.button:hover {
+    background-color: #eb0606;
+}
+
+/* DEPARTMENTS */
+
+.departments {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+
+
+}
+
+h1 {
+    color: black;
+    font-weight: 120o;
+    font-size: 36px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.container {
+
+
+    padding: 30px;
+    width: 90vw;
+    height: 60vh;
+
+    position: relative;
+    right: 5vw;
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+
+}
+
+h3 {
+    font-size: small;
+    padding: 15px;
+}
+
+.card1 {
+    margin-top: 5%;
+    background-color: rgb(233, 202, 215);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card0 {
+    margin-top: 5%;
+    background-color: rgb(233, 202, 215);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card2 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card3 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card4 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card5 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card6 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card7 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card8 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+}
+
+.card9 {
+    margin-top: 5%;
+    background-color: rgb(233, 209, 219);
+    justify-content: space-between;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition-behavior: 0.5s;
+
+}
+
+.cards:hover {
+    box-shadow: 0 0 20px 0px rgba(209, 108, 108, 0.692);
+}
+
+.row {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.events{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+/* .layer{
+    background:transparent ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s; */
+ 
+
+
+.layer:hover{
+    background:#f1bcbc ;
+}
+.Admission{
+       width: 100%;
+       margin: auto;
+       text-align: center;
+       padding-top: 100px;
+       padding: 50px;
+       
+
+       border: 2px solid blue ;
+    }
+    .Admission {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(https://image-static.collegedunia.com/public/college_data/images/appImage/13093_BIT_New.jpg?h=260&w=360&mode=crop);
+        background-size: cover;
+        background-position: center;
+        color: rgb(238, 241, 243);
+        
+    }
+    .one{
+        border:2px solid blue;
+    }
+    .two{
+        border:2px solid blue;
+    }
+    .three{
+        border:2px solid blue;
+    }
+    .four{
+        border:2px solid blue; 
+    }
+    .five{
+        border:2px solid blue;
+    }
+    .one:hover{
+        background-color: rgb(80, 216, 171);
+    }
+    .two:hover{
+        background-color: rgb(80, 216, 171);
+    }
+    .three:hover{
+        background-color: rgb(80, 216, 171);
+    }
+    .four:hover{
+        background-color: rgb(80, 216, 171);
+    }
+    .five:hover{
+        background-color: rgb(80, 216, 171);
+    }
